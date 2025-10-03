@@ -15,6 +15,7 @@
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -538,6 +539,7 @@ main {
 /* subscribe */
 .subscribe {
     margin-top: 90px;
+    padding-bottom: 72px;
 }
 
 .subscribe .body-subscribe {
@@ -585,7 +587,7 @@ main {
 }
 /* footer */
 footer {
-    margin-top: 72px;
+    background: var(--white-color);
 }
 
 footer .content {

@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5501/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="./Document_files/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+        <link rel="stylesheet" href="./Document_files/reset.css">
+        <link rel="stylesheet" href="./Document_files/styles.css">
+    </head>
+    <body>
+        <main>
+            <div class="container">
+                <div class="body">
+                    <h1 class="heading">Contact Us</h1>
+                    <p class="sub-heading">
+                        Any question or remarks? Just write us a message!
+                    </p>
+
+                    <div class="contact">
+                        <div class="contact-info">
+                            <h2 class="contact__heading">
+                                Contact Information
+                            </h2>
+                            <p class="contact__desc">
+                                Fill up the form and our Team will get back to
+                                you within 24 hours.
+                            </p>
+                            <div class="contact__row">
+                                <i class="fa-solid fa-phone"></i>
+                                <span class="contact__text">+0123 4567 8910</span>
+                            </div>
+                            <div class="contact__row">
+                                <i class="fa-solid fa-envelope"></i>
+                                <span class="contact__text">hello@flowbase.com</span>
+                            </div>
+                            <div class="contact__row">
+                                <i class="fa-solid fa-location-pin"></i>
+                                <span class="contact__text">102 Street 2714 Don</span>
+                            </div>
+                            <div class="contact__social">
+                                <a href="http://127.0.0.1:5501/index.html">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </a>
+                                <a href="http://127.0.0.1:5501/index.html">
+                                    <i class="fa-brands fa-telegram"></i>
+                                </a>
+                                <a href="http://127.0.0.1:5501/index.html">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                                <a href="http://127.0.0.1:5501/index.html">
+                                    <i class="fa-brands fa-steam"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <form action="http://127.0.0.1:5501/index.html" class="contact-form" autocomplete="off">
+                            <div class="row">
+                                <div class="contact__group">
+                                    <label for="first-name" class="contact-label">First Name</label>
+                                    <input type="text" id="first-name" class="contact-input" placeholder="Enter first name">
+                                    <p class="error">
+                                        Vui lòng nhập trường này
+                                    </p>
+                                </div>
+                                <div class="contact__group">
+                                    <label for="last-name" class="contact-label">Last Name</label>
+                                    <input type="text" id="last-name" class="contact-input" placeholder="Enter last name">
+                                    <p class="error">
+                                        Vui lòng nhập trường này
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="contact__group">
+                                    <label for="email" class="contact-label">Mail</label>
+                                    <input type="email" id="email" class="contact-input" placeholder="Enter mail">
+                                    <p class="error">
+                                        Vui lòng nhập trường này
+                                    </p>
+                                </div>
+                                <div class="contact__group">
+                                    <label for="phone" class="contact-label">Phone</label>
+                                    <input type="tel" id="phone" class="contact-input" placeholder="Enter phone">
+                                    <p class="error">
+                                        Vui lòng nhập trường này
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="contact__group">
+                                    <label for="" class="contact-label large">
+                                        What the of website do you need?
+                                    </label>
+                                    <div class="radio-group">
+                                        <div class="radio-btn">
+                                            <input type="radio" name="type" id="web-design" value="web-design" hidden="">
+                                            <label for="web-design">
+                                                Web design
+                                            </label>
+                                        </div>
+                                        <div class="radio-btn">
+                                            <input type="radio" name="type" id="web-development" value="web-development" hidden="">
+                                            <label for="web-development">
+                                                Web development
+                                            </label>
+                                        </div>
+                                        <div class="radio-btn">
+                                            <input type="radio" name="type" id="logo-design" value="logo-design" hidden="">
+                                            <label for="logo-design">
+                                                Logo design
+                                            </label>
+                                        </div>
+                                        <div class="radio-btn">
+                                            <input type="radio" name="type" id="other" value="other" checked="" hidden="">
+                                            <label for="other">Other</label>
+                                        </div>
+                                    </div>
+                                    <p class="error">
+                                        Vui lòng nhập trường này
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="contact__group">
+                                    <label for="message" class="contact-label">Message</label>
+                                    <textarea name="message" id="message" class="contact-message" placeholder="Write your message" oninput="onResize(this)"></textarea>
+                                    <p class="error">
+                                        Vui lòng nhập trường này
+                                    </p>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script>
+            function onResize(e) {
+                e.style.height = "auto";
+                e.style.height = e.scrollHeight + 3 + "px";
+            }
+        </script>
+    <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+<div id="page-ruler-overlay" style="position: fixed; top: 0px; left: 0px; width: 100vw; height: 100vh; z-index: 999999; pointer-events: none; display: none;"><div class="page-ruler-handle" data-position="nw" style="position: absolute; width: 8px; height: 8px; background-color: rgb(34, 197, 94); border: 1px solid rgb(255, 255, 255); border-radius: 50%; cursor: nw-resize; z-index: 1000002; display: none;"></div><div class="page-ruler-handle" data-position="ne" style="position: absolute; width: 8px; height: 8px; background-color: rgb(34, 197, 94); border: 1px solid rgb(255, 255, 255); border-radius: 50%; cursor: ne-resize; z-index: 1000002; display: none;"></div><div class="page-ruler-handle" data-position="sw" style="position: absolute; width: 8px; height: 8px; background-color: rgb(34, 197, 94); border: 1px solid rgb(255, 255, 255); border-radius: 50%; cursor: sw-resize; z-index: 1000002; display: none;"></div><div class="page-ruler-handle" data-position="se" style="position: absolute; width: 8px; height: 8px; background-color: rgb(34, 197, 94); border: 1px solid rgb(255, 255, 255); border-radius: 50%; cursor: se-resize; z-index: 1000002; display: none;"></div><div class="page-ruler-handle" data-position="n" style="position: absolute; width: 8px; height: 8px; background-color: rgb(34, 197, 94); border: 1px solid rgb(255, 255, 255); border-radius: 50%; cursor: n-resize; z-index: 1000002; display: none;"></div><div class="page-ruler-handle" data-position="s" style="position: absolute; width: 8px; height: 8px; background-color: rgb(34, 197, 94); border: 1px solid rgb(255, 255, 255); border-radius: 50%; cursor: s-resize; z-index: 1000002; display: none;"></div><div class="page-ruler-handle" data-position="w" style="position: absolute; width: 8px; height: 8px; background-color: rgb(34, 197, 94); border: 1px solid rgb(255, 255, 255); border-radius: 50%; cursor: w-resize; z-index: 1000002; display: none;"></div><div class="page-ruler-handle" data-position="e" style="position: absolute; width: 8px; height: 8px; background-color: rgb(34, 197, 94); border: 1px solid rgb(255, 255, 255); border-radius: 50%; cursor: e-resize; z-index: 1000002; display: none;"></div></div><button id="page-ruler-exit-button" style="position: fixed; top: 15px; right: 37px; background-color: rgba(128, 128, 128, 0.8); color: white; border: none; padding: 9px 12px; border-radius: 4px; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif; font-size: 14px; font-weight: 500; cursor: pointer; z-index: 2000000; backdrop-filter: blur(4px); box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 8px; transition: 0.2s; display: none;">Exit Page Ruler</button><button id="page-ruler-settings-button" title="Settings" style="position: fixed; top: 15px; right: 170px; background-color: rgba(128, 128, 128, 0.8); color: white; border: none; padding: 10px 12px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif; font-size: 16px; cursor: pointer; z-index: 2000000; backdrop-filter: blur(4px); box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 8px; transition: 0.2s; display: none; line-height: 0;">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M8 10C9.10457 10 10 9.10457 10 8C10 6.89543 9.10457 6 8 6C6.89543 6 6 6.89543 6 8C6 9.10457 6.89543 10 8 10Z" fill="white"></path>
+        <path d="M14 8.88889V7.11111L12.4444 6.66667C12.3556 6.4 12.2222 6.17778 12.0889 5.95556L12.8889 4.57778L11.4222 3.11111L10.0444 3.91111C9.82222 3.77778 9.6 3.64444 9.33333 3.55556L8.88889 2H7.11111L6.66667 3.55556C6.4 3.64444 6.17778 3.77778 5.95556 3.91111L4.57778 3.11111L3.11111 4.57778L3.91111 5.95556C3.77778 6.17778 3.64444 6.4 3.55556 6.66667L2 7.11111V8.88889L3.55556 9.33333C3.64444 9.6 3.77778 9.82222 3.91111 10.0444L3.11111 11.4222L4.57778 12.8889L5.95556 12.0889C6.17778 12.2222 6.4 12.3556 6.66667 12.4444L7.11111 14H8.88889L9.33333 12.4444C9.6 12.3556 9.82222 12.2222 10.0444 12.0889L11.4222 12.8889L12.8889 11.4222L12.0889 10.0444C12.2222 9.82222 12.3556 9.6 12.4444 9.33333L14 8.88889ZM8 11C6.34315 11 5 9.65685 5 8C5 6.34315 6.34315 5 8 5C9.65685 5 11 6.34315 11 8C11 9.65685 9.65685 11 8 11Z" fill="white"></path>
+      </svg>
+    </button><button id="page-ruler-mode-toggle-button" title="Toggle Ruler Mode" style="position: fixed; top: 15px; right: 220px; background-color: rgba(128, 128, 128, 0.8); color: white; border: none; padding: 8px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif; font-size: 16px; cursor: pointer; z-index: 2000000; backdrop-filter: blur(4px); box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 8px; transition: 0.2s; display: none; line-height: 0;">
+      <img src="chrome-extension://mlacjjfgihfdkaneboifmbcokgcojefl/icons/icon32.png" width="20" height="20" style="display: block;">
+    </button><div id="page-ruler-settings-panel" style="position: fixed; top: 70px; right: 20px; width: 280px; background-color: rgba(255, 255, 255, 0.95); border: 1px solid rgba(128, 128, 128, 0.3); border-radius: 8px; box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 20px; backdrop-filter: blur(10px); z-index: 2000001; padding: 20px; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif; display: none;">
+      <h3 style="margin: 0 0 15px 0; color: #333; font-size: 16px; font-weight: 600;">Page Ruler Settings</h3>
+
+      <div style="margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #e5e7eb;">
+        <h4 style="margin: 0 0 10px 0; color: #555; font-size: 14px; font-weight: 600;">Mode</h4>
+        <div style="display: flex; gap: 10px;">
+          <button id="mode-box-btn" style="
+            flex: 1;
+            padding: 8px;
+            background-color: #22c55e;
+            color: white;
+            border: 1px solid #22c55e;
+            border-radius: 6px;
+            font-size: 13px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s ease;
+          ">Box Measure</button>
+          <button id="mode-ruler-btn" style="
+            flex: 1;
+            padding: 8px;
+            background-color: #f3f4f6;
+            color: #374151;
+            border: 1px solid #d1d5db;
+            border-radius: 6px;
+            font-size: 13px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s ease;
+          ">Visual Ruler</button>
+        </div>
+      </div>
+
+      <div style="margin-bottom: 15px;">
+        <label style="display: block; margin-bottom: 5px; color: #555; font-size: 14px; font-weight: 500;">Outline Color (Box Mode):</label>
+        <input type="color" id="outline-color-picker" value="#22c55e" style="width: 100%; height: 35px; border: none; border-radius: 4px; cursor: pointer;">
+      </div>
+
+      <div style="margin-bottom: 15px;">
+        <label style="display: block; margin-bottom: 5px; color: #555; font-size: 14px; font-weight: 500;">Background Color (Box Mode):</label>
+        <input type="color" id="background-color-picker" value="#22c55e" style="width: 100%; height: 35px; border: none; border-radius: 4px; cursor: pointer;">
+      </div>
+
+      <div style="margin-bottom: 15px;">
+        <label style="display: block; margin-bottom: 5px; color: #555; font-size: 14px; font-weight: 500;">Background Opacity (Box Mode):</label>
+        <input type="range" id="opacity-slider" min="0" max="1" step="0.1" value="0.2" style="width: 100%; margin-bottom: 5px;">
+        <div style="text-align: center; color: #666; font-size: 12px;"><span id="opacity-value">20%</span></div>
+      </div>
+
+      <div style="margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #e5e7eb;">
+        <label style="display: block; margin-bottom: 5px; color: #555; font-size: 14px; font-weight: 500;">Ruler Color (Ruler Mode):</label>
+        <input type="color" id="ruler-color-picker" value="#f59e0b" style="width: 100%; height: 35px; border: none; border-radius: 4px; cursor: pointer;">
+      </div>
+
+      <button id="reset-defaults-btn" style="
+        width: 100%;
+        padding: 10px;
+        background-color: #f3f4f6;
+        color: #374151;
+        border: 1px solid #d1d5db;
+        border-radius: 6px;
+        font-size: 14px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        margin-bottom: 10px;
+      ">Reset to Default</button>
+
+      <button id="close-settings-btn" style="
+        width: 100%;
+        padding: 10px;
+        background-color: #22c55e;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        font-size: 14px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        margin-bottom: 15px;
+      ">Close Settings</button>
+
+      <div style="display: flex; gap: 10px; justify-content: center;">
+        <a href="https://devtooleasy.com/" target="_blank" id="home-link" style="
+          color: #6b7280;
+          text-decoration: none;
+          font-size: 13px;
+          padding: 8px 12px;
+          border: 1px solid #d1d5db;
+          border-radius: 4px;
+          transition: all 0.2s ease;
+          flex: 1;
+          text-align: center;
+        ">Home</a>
+
+        <a href="https://chromewebstore.google.com/detail/page-ruler/mlacjjfgihfdkaneboifmbcokgcojefl" target="_blank" id="rate-us-link" style="
+          color: #6b7280;
+          text-decoration: none;
+          font-size: 13px;
+          padding: 8px 12px;
+          border: 1px solid #d1d5db;
+          border-radius: 4px;
+          transition: all 0.2s ease;
+          flex: 1;
+          text-align: center;
+          display: block;
+        ">Rate Us</a>
+      </div>
+    </div><div id="visual-ruler-container" style="position: fixed; z-index: 2000002; pointer-events: auto; display: none; transform-origin: 0px 0px; left: 100px; top: 100px; transform: rotate(0deg);"><svg width="500" height="90" style="cursor: move; filter: drop-shadow(rgba(0, 0, 0, 0.3) 0px 4px 8px);"><rect x="0" y="0" width="500" height="90" fill="#f59e0b" fill-opacity="0.7" stroke="#000" stroke-width="2" rx="4"></rect><text class="ruler-text" x="0" y="65" text-anchor="middle" font-size="12" font-weight="bold" fill="#000">0</text><line class="ruler-marking" x1="0" y1="90" x2="0" y2="70" stroke="#000" stroke-width="2"></line><line class="ruler-marking" x1="10" y1="90" x2="10" y2="80" stroke="#333" stroke-width="1"></line><line class="ruler-marking" x1="20" y1="90" x2="20" y2="80" stroke="#333" stroke-width="1"></line><line class="ruler-marking" x1="30" y1="90" x2="30" y2="80" stroke="#333" stroke-width="1"></line><line class="ruler-marking" x1="40" y1="90" x2="40" y2="80" stroke="#333" stroke-width="1"></line><line class="ruler-marking" x1="50" y1="90" x2="50" y2="75" stroke="#000" stroke-width="1.5"></line><line class="ruler-marking" x1="60" y1="90" x2="60" y2="80" stroke="#333" stroke-width="1"></line><line class="ruler-marking" x1="70" y1="90" x2="70" y2="80" stroke="#333" stroke-width="1"></line><line class="ruler-marking" x1="80" y1="90" x2="80" y2="80" stroke="#333" stroke-width="1"></line><line class="ruler-marking" x1="90" y1="90" x2="90" y2="80" stroke="#333" stroke-width="1"></line><text class="ruler-text" x="100" y="65" text-anchor="middle" font-size="12" font-weight="bold" fill="#000">100</text><line class="ruler-marking" x1="100" y1="90" x2="100" y2="70" stroke="#000" stroke-width="2"></line><line class="ruler-marking" x1="110" y1="90" x2="110" y2="80" stroke="#333" stroke-width="1"></line><line class="ruler-marking" x1="120" y1="90" x2="120" y2="80" stroke="#333" stroke-width="1"></line><line class="ruler-marking" x1="130" y1="90" x2="130" y2="80" stroke="#333" stroke-width="1"></line><line class="ruler-marking" x1="140" y1="90" x2="140" y2="80" stroke="#333" stroke-width="1"></line><line class="ruler-marking" x1="150" y1="90" x2="150" y2="75" stroke="#000" stroke-width="1.5"></line><line class="ruler-marking" x1="160" y1="90" x2="160" y2="80" stroke="#333" stroke-width="1"></line><line class="ruler-marking" x1="170" y1="90" x2="170" y2="80" stroke="#333" stroke-width="1"></line><line class="ruler-marking" x1="180" y1="90" x2="180" y2="80" stroke="#333" stroke-width="1"></line><line class="ruler-marking" x1="190" y1="90" x2="190" y2="80" stroke="#333" stroke-width="1"></line><text class="ruler-text" x="200" y="65" text-anchor="middle" font-size="12" font-weight="bold" fill="#000">200</text><line class="ruler-marking" x1="200" y1="90" x2="200" y2="70" stroke="#000" stroke-width="2"></line><line class="ruler-marking" x1="210" y1="90" x2="210" y2="80" stroke="#333" stroke-width="1"></line><line class="ruler-marking" x1="220" y1="90" x2="220" y2="80" stroke="#333" stroke-width="1"></line><line class="ruler-marking" x1="230" y1="90" x2="230" y2="80" stroke="#333" stroke-width="1"></line><line class="ruler-marking" x1="240" y1="90" x2="240" y2="80" stroke="#333" stroke-width="1"></line><line class="ruler-marking" x1="250" y1="90" x2="250" y2="75" stroke="#000" stroke-width="1.5"></line><line class="ruler-marking" x1="260" y1="90" x2="260" y2="80" stroke="#333" stroke-width="1"></line><line class="ruler-marking" x1="270" y1="90" x2="270" y2="80" stroke="#333" stroke-width="1"></line><line class="ruler-marking" x1="280" y1="90" x2="280" y2="80" stroke="#333" stroke-width="1"></line><line class="ruler-marking" x1="290" y1="90" x2="290" y2="80" stroke="#333" stroke-width="1"></line><text class="ruler-text" x="300" y="65" text-anchor="middle" font-size="12" font-weight="bold" fill="#000">300</text><line class="ruler-marking" x1="300" y1="90" x2="300" y2="70" stroke="#000" stroke-width="2"></line><line class="ruler-marking" x1="310" y1="90" x2="310" y2="80" stroke="#333" stroke-width="1"></line><line class="ruler-marking" x1="320" y1="90" x2="320" y2="80" stroke="#333" stroke-width="1"></line><line class="ruler-marking" x1="330" y1="90" x2="330" y2="80" stroke="#333" stroke-width="1"></line><line class="ruler-marking" x1="340" y1="90" x2="340" y2="80" stroke="#333" stroke-width="1"></line><line class="ruler-marking" x1="350" y1="90" x2="350" y2="75" stroke="#000" stroke-width="1.5"></line><line class="ruler-marking" x1="360" y1="90" x2="360" y2="80" stroke="#333" stroke-width="1"></line><line class="ruler-marking" x1="370" y1="90" x2="370" y2="80" stroke="#333" stroke-width="1"></line><line class="ruler-marking" x1="380" y1="90" x2="380" y2="80" stroke="#333" stroke-width="1"></line><line class="ruler-marking" x1="390" y1="90" x2="390" y2="80" stroke="#333" stroke-width="1"></line><text class="ruler-text" x="400" y="65" text-anchor="middle" font-size="12" font-weight="bold" fill="#000">400</text><line class="ruler-marking" x1="400" y1="90" x2="400" y2="70" stroke="#000" stroke-width="2"></line><line class="ruler-marking" x1="410" y1="90" x2="410" y2="80" stroke="#333" stroke-width="1"></line><line class="ruler-marking" x1="420" y1="90" x2="420" y2="80" stroke="#333" stroke-width="1"></line><line class="ruler-marking" x1="430" y1="90" x2="430" y2="80" stroke="#333" stroke-width="1"></line><line class="ruler-marking" x1="440" y1="90" x2="440" y2="80" stroke="#333" stroke-width="1"></line><line class="ruler-marking" x1="450" y1="90" x2="450" y2="75" stroke="#000" stroke-width="1.5"></line><line class="ruler-marking" x1="460" y1="90" x2="460" y2="80" stroke="#333" stroke-width="1"></line><line class="ruler-marking" x1="470" y1="90" x2="470" y2="80" stroke="#333" stroke-width="1"></line><line class="ruler-marking" x1="480" y1="90" x2="480" y2="80" stroke="#333" stroke-width="1"></line><line class="ruler-marking" x1="490" y1="90" x2="490" y2="80" stroke="#333" stroke-width="1"></line><text class="ruler-text" x="500" y="65" text-anchor="middle" font-size="12" font-weight="bold" fill="#000">500</text><line class="ruler-marking" x1="500" y1="90" x2="500" y2="70" stroke="#000" stroke-width="2"></line><text class="ruler-text ruler-unit-label" x="430" y="15" font-size="14" font-weight="bold" fill="#000">PX</text></svg><div class="ruler-rotation-handle" title="Drag to rotate, Ctrl+drag to snap to 45°, double-click to reset to 0°" style="position: absolute; left: -15px; top: 50%; transform: translateY(-50%); width: 30px; height: 30px; background-color: rgb(59, 130, 246); border: 2px solid white; border-radius: 50%; cursor: grab; z-index: 10; box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 6px;">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+        <path d="M12 4V1L8 5l4 4V6c3.31 0 6 2.69 6 6 0 1.01-.25 1.97-.7 2.8l1.46 1.46C19.54 15.03 20 13.57 20 12c0-4.42-3.58-8-8-8zm0 14c-3.31 0-6-2.69-6-6 0-1.01.25-1.97.7-2.8L5.24 7.74C4.46 8.97 4 10.43 4 12c0 4.42 3.58 8 8 8v3l4-4-4-4v3z" fill="white"></path>
+      </svg>
+    </div><div class="ruler-resize-handle-start" style="position: absolute; left: 0px; top: 0px; width: 12px; height: 20px; background-color: rgb(239, 68, 68); border: 2px solid white; border-radius: 2px; cursor: ew-resize; z-index: 10; box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 6px;"></div><div class="ruler-resize-handle-end" style="position: absolute; right: 0px; top: 0px; width: 12px; height: 20px; background-color: rgb(239, 68, 68); border: 2px solid white; border-radius: 2px; cursor: ew-resize; z-index: 10; box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 6px;"></div><div class="ruler-unit-switcher" style="position: absolute; left: 30px; top: 5px; background-color: rgba(255, 255, 255, 0.9); border: 1px solid rgb(0, 0, 0); border-radius: 4px; padding: 4px 8px; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif; font-size: 12px; font-weight: bold; cursor: pointer; z-index: 11; user-select: none;">Unit: px (click for cm)</div><div class="ruler-rotation-angle-display" style="position: absolute; top: 5px; background-color: rgba(59, 130, 246, 0.9); color: white; border: 1px solid white; border-radius: 4px; padding: 4px 8px; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif; font-size: 12px; font-weight: bold; z-index: 11; user-select: none; pointer-events: none; left: 230px;">0°</div></div></body></html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Form login</title>
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+        <link rel="stylesheet" href="./assets/css/styles.css" />
+    </head>
+    <body>
+        <main>
+            <h1 class="heading-title">Login</h1>
+            <form
+                action="https://api-gateway.fullstack.edu.vn/action_page.php"
+                autocomplete="off"
+                method="post"
+            >
+                <div class="form-group">
+                    <label for="email">email</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        required
+                        placeholder="nhap mail"
+                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                    />
+                    <p class="error">Vui lòng nhập đúng email</p>
+                </div>
+                <div class="form-group">
+                    <label for="password">password</label>
+                    <input
+                        type="password"
+                        id="password"
+                        name="password"
+                        required
+                        minlength="6"
+                        placeholder=" "
+                    />
+                    <p class="error">Mật khẩu ít nhất 6 ký tự</p>
+                </div>
+                <div class="form-group group-gender">
+                    <label class="form-label"> Gender </label>
+                    <label for="male" class="radio">
+                        <input type="radio" name="gender" id="male" />
+                        Male
+                    </label>
+                    <label for="female" class="radio" hidden>
+                        <input type="radio" name="gender" id="female" />
+                        Female
+                    </label>
+                    <label for="other" class="radio">
+                        <input type="radio" name="gender" id="other" />
+                        Other
+                    </label>
+                </div>
+                <div class="form-group">
+                    <div class="checkbox">
+                        <input type="checkbox" name="remember" id="remember" />
+                        <label for="remember" hidden> Remember me</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-submit">Login</button>
+                </div>
+            </form>
+        </main>
+    </body>
+</html>
